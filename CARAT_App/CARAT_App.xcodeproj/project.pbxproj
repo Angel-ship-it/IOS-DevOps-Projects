@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		139AC75E27ECF33F001A4D42 /* SpotifyiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 139AC75D27ECF33F001A4D42 /* SpotifyiOS.framework */; };
+		139AC75F27ECF33F001A4D42 /* SpotifyiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 139AC75D27ECF33F001A4D42 /* SpotifyiOS.framework */; };
+		139AC76227ECFA8A001A4D42 /* SpotifyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139AC76127ECFA8A001A4D42 /* SpotifyController.swift */; };
+		139AC76327ECFA8A001A4D42 /* SpotifyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139AC76127ECFA8A001A4D42 /* SpotifyController.swift */; };
+		139AC76527ED0278001A4D42 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139AC76427ED0278001A4D42 /* ViewModel.swift */; };
+		139AC76627ED0278001A4D42 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139AC76427ED0278001A4D42 /* ViewModel.swift */; };
+		4D2D9A2927C4A23B003CE786 /* CARAT_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2D9A1927C4A237003CE786 /* CARAT_AppApp.swift */; };
+		4D2D9A2A27C4A23B003CE786 /* CARAT_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2D9A1927C4A237003CE786 /* CARAT_AppApp.swift */; };
+		4D2D9A2B27C4A23B003CE786 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2D9A1A27C4A237003CE786 /* ContentView.swift */; };
+		4D2D9A2C27C4A23B003CE786 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2D9A1A27C4A237003CE786 /* ContentView.swift */; };
+		4D2D9A2D27C4A23B003CE786 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D2D9A1B27C4A23A003CE786 /* Assets.xcassets */; };
+		4D2D9A2E27C4A23B003CE786 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D2D9A1B27C4A23A003CE786 /* Assets.xcassets */; };
+		CC8F749328062CEB00521ABB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8F749228062CEB00521ABB /* User.swift */; };
+		CC8F749528062D6E00521ABB /* previewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8F749428062D6E00521ABB /* previewData.swift */; };
+		CC8F74972806376400521ABB /* MoodScreenVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8F74962806376400521ABB /* MoodScreenVM.swift */; };
+		CC8F7499280637AF00521ABB /* dataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8F7498280637AF00521ABB /* dataStore.swift */; };
+		CC8F749B2806702800521ABB /* MapScreenVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8F749A2806702800521ABB /* MapScreenVM.swift */; };
+		E14B5E782805DD1600B43EAD /* MainPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14B5E772805DD1600B43EAD /* MainPageView.swift */; };
+		E14B5E792805DD1600B43EAD /* MainPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14B5E772805DD1600B43EAD /* MainPageView.swift */; };
+		E14B5E7B2805DE4700B43EAD /* SpotifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14B5E7A2805DE4700B43EAD /* SpotifyView.swift */; };
+		E14B5E7C2805DE4700B43EAD /* SpotifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14B5E7A2805DE4700B43EAD /* SpotifyView.swift */; };
+		E14B5E7E2805F5DC00B43EAD /* TabContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14B5E7D2805F5DC00B43EAD /* TabContainer.swift */; };
+		E14B5E7F2805F5DC00B43EAD /* TabContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14B5E7D2805F5DC00B43EAD /* TabContainer.swift */; };
+		E14B5E812805F70200B43EAD /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14B5E802805F70200B43EAD /* ProfileScreen.swift */; };
+		E14B5E822805F70200B43EAD /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14B5E802805F70200B43EAD /* ProfileScreen.swift */; };
+		E14B5E842805F73000B43EAD /* MoodScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14B5E832805F73000B43EAD /* MoodScreen.swift */; };
+		E14B5E852805F73000B43EAD /* MoodScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14B5E832805F73000B43EAD /* MoodScreen.swift */; };
+		E14B5E872806069B00B43EAD /* MapScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14B5E862806069B00B43EAD /* MapScreenView.swift */; };
+		E14B5E882806069B00B43EAD /* MapScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14B5E862806069B00B43EAD /* MapScreenView.swift */; };
+		E14B5E8A280609DC00B43EAD /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14B5E89280609DC00B43EAD /* Locations.swift */; };
+		E17946C82806FED6005EC8F6 /* SpotSesh.png in Resources */ = {isa = PBXBuildFile; fileRef = E17946C72806FED6005EC8F6 /* SpotSesh.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		139AC75A27EA733B001A4D42 /* NowPlayingView-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NowPlayingView-Header.h"; sourceTree = "<group>"; };
+		139AC75D27ECF33F001A4D42 /* SpotifyiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyiOS.framework; sourceTree = "<group>"; };
+		139AC76127ECFA8A001A4D42 /* SpotifyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotifyController.swift; sourceTree = "<group>"; };
+		139AC76427ED0278001A4D42 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		4D2D9A1927C4A237003CE786 /* CARAT_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CARAT_AppApp.swift; sourceTree = "<group>"; };
+		4D2D9A1A27C4A237003CE786 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4D2D9A1B27C4A23A003CE786 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D2D9A2027C4A23B003CE786 /* CARAT_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CARAT_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D2D9A2627C4A23B003CE786 /* CARAT_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CARAT_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D2D9A2827C4A23B003CE786 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		CC8F749228062CEB00521ABB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CC8F749428062D6E00521ABB /* previewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = previewData.swift; sourceTree = "<group>"; };
+		CC8F74962806376400521ABB /* MoodScreenVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodScreenVM.swift; sourceTree = "<group>"; };
+		CC8F7498280637AF00521ABB /* dataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataStore.swift; sourceTree = "<group>"; };
+		CC8F749A2806702800521ABB /* MapScreenVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreenVM.swift; sourceTree = "<group>"; };
+		E14B5E772805DD1600B43EAD /* MainPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageView.swift; sourceTree = "<group>"; };
+		E14B5E7A2805DE4700B43EAD /* SpotifyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyView.swift; sourceTree = "<group>"; };
+		E14B5E7D2805F5DC00B43EAD /* TabContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabContainer.swift; sourceTree = "<group>"; };
+		E14B5E802805F70200B43EAD /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+		E14B5E832805F73000B43EAD /* MoodScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodScreen.swift; sourceTree = "<group>"; };
+		E14B5E862806069B00B43EAD /* MapScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreenView.swift; sourceTree = "<group>"; };
+		E14B5E89280609DC00B43EAD /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
+		E17946C72806FED6005EC8F6 /* SpotSesh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SpotSesh.png; path = ../../../Desktop/SpotSesh.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D2D9A1D27C4A23B003CE786 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				139AC75E27ECF33F001A4D42 /* SpotifyiOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D2D9A2327C4A23B003CE786 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				139AC75F27ECF33F001A4D42 /* SpotifyiOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D2D9A1327C4A237003CE786 = {
+			isa = PBXGroup;
+			children = (
+				139AC75A27EA733B001A4D42 /* NowPlayingView-Header.h */,
+				139AC75D27ECF33F001A4D42 /* SpotifyiOS.framework */,
+				4D2D9A1827C4A237003CE786 /* Shared */,
+				4D2D9A2727C4A23B003CE786 /* macOS */,
+				4D2D9A2127C4A23B003CE786 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D2D9A1827C4A237003CE786 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				E14B5E8D28060B1B00B43EAD /* Maps */,
+				E14B5E8C28060B1300B43EAD /* Spotify */,
+				CC8F749128062CCA00521ABB /* Models */,
+				4D2D9A1927C4A237003CE786 /* CARAT_AppApp.swift */,
+				E14B5E7D2805F5DC00B43EAD /* TabContainer.swift */,
+				E14B5E802805F70200B43EAD /* ProfileScreen.swift */,
+				E14B5E832805F73000B43EAD /* MoodScreen.swift */,
+				CC8F74962806376400521ABB /* MoodScreenVM.swift */,
+				4D2D9A1B27C4A23A003CE786 /* Assets.xcassets */,
+				E17946C72806FED6005EC8F6 /* SpotSesh.png */,
+				CC8F7498280637AF00521ABB /* dataStore.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		4D2D9A2127C4A23B003CE786 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D2D9A2027C4A23B003CE786 /* CARAT_App.app */,
+				4D2D9A2627C4A23B003CE786 /* CARAT_App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D2D9A2727C4A23B003CE786 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				4D2D9A2827C4A23B003CE786 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		CC8F749128062CCA00521ABB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CC8F749228062CEB00521ABB /* User.swift */,
+				E14B5E89280609DC00B43EAD /* Locations.swift */,
+				CC8F749428062D6E00521ABB /* previewData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E14B5E8C28060B1300B43EAD /* Spotify */ = {
+			isa = PBXGroup;
+			children = (
+				E14B5E7A2805DE4700B43EAD /* SpotifyView.swift */,
+				E14B5E772805DD1600B43EAD /* MainPageView.swift */,
+				139AC76427ED0278001A4D42 /* ViewModel.swift */,
+				4D2D9A1A27C4A237003CE786 /* ContentView.swift */,
+				139AC76127ECFA8A001A4D42 /* SpotifyController.swift */,
+			);
+			path = Spotify;
+			sourceTree = "<group>";
+		};
+		E14B5E8D28060B1B00B43EAD /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				E14B5E862806069B00B43EAD /* MapScreenView.swift */,
+				CC8F749A2806702800521ABB /* MapScreenVM.swift */,
+			);
+			path = Maps;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D2D9A1F27C4A23B003CE786 /* CARAT_App (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D2D9A3127C4A23B003CE786 /* Build configuration list for PBXNativeTarget "CARAT_App (iOS)" */;
+			buildPhases = (
+				4D2D9A1C27C4A23B003CE786 /* Sources */,
+				4D2D9A1D27C4A23B003CE786 /* Frameworks */,
+				4D2D9A1E27C4A23B003CE786 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CARAT_App (iOS)";
+			productName = "CARAT_App (iOS)";
+			productReference = 4D2D9A2027C4A23B003CE786 /* CARAT_App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D2D9A2527C4A23B003CE786 /* CARAT_App (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D2D9A3427C4A23B003CE786 /* Build configuration list for PBXNativeTarget "CARAT_App (macOS)" */;
+			buildPhases = (
+				4D2D9A2227C4A23B003CE786 /* Sources */,
+				4D2D9A2327C4A23B003CE786 /* Frameworks */,
+				4D2D9A2427C4A23B003CE786 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CARAT_App (macOS)";
+			productName = "CARAT_App (macOS)";
+			productReference = 4D2D9A2627C4A23B003CE786 /* CARAT_App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D2D9A1427C4A237003CE786 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					4D2D9A1F27C4A23B003CE786 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					4D2D9A2527C4A23B003CE786 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 4D2D9A1727C4A237003CE786 /* Build configuration list for PBXProject "CARAT_App" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D2D9A1327C4A237003CE786;
+			productRefGroup = 4D2D9A2127C4A23B003CE786 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D2D9A1F27C4A23B003CE786 /* CARAT_App (iOS) */,
+				4D2D9A2527C4A23B003CE786 /* CARAT_App (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D2D9A1E27C4A23B003CE786 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E17946C82806FED6005EC8F6 /* SpotSesh.png in Resources */,
+				4D2D9A2D27C4A23B003CE786 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D2D9A2427C4A23B003CE786 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D2D9A2E27C4A23B003CE786 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D2D9A1C27C4A23B003CE786 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E14B5E7E2805F5DC00B43EAD /* TabContainer.swift in Sources */,
+				CC8F7499280637AF00521ABB /* dataStore.swift in Sources */,
+				E14B5E872806069B00B43EAD /* MapScreenView.swift in Sources */,
+				4D2D9A2B27C4A23B003CE786 /* ContentView.swift in Sources */,
+				139AC76227ECFA8A001A4D42 /* SpotifyController.swift in Sources */,
+				E14B5E782805DD1600B43EAD /* MainPageView.swift in Sources */,
+				139AC76527ED0278001A4D42 /* ViewModel.swift in Sources */,
+				4D2D9A2927C4A23B003CE786 /* CARAT_AppApp.swift in Sources */,
+				E14B5E842805F73000B43EAD /* MoodScreen.swift in Sources */,
+				CC8F749328062CEB00521ABB /* User.swift in Sources */,
+				E14B5E7B2805DE4700B43EAD /* SpotifyView.swift in Sources */,
+				E14B5E8A280609DC00B43EAD /* Locations.swift in Sources */,
+				CC8F74972806376400521ABB /* MoodScreenVM.swift in Sources */,
+				CC8F749B2806702800521ABB /* MapScreenVM.swift in Sources */,
+				CC8F749528062D6E00521ABB /* previewData.swift in Sources */,
+				E14B5E812805F70200B43EAD /* ProfileScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D2D9A2227C4A23B003CE786 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E14B5E7F2805F5DC00B43EAD /* TabContainer.swift in Sources */,
+				E14B5E882806069B00B43EAD /* MapScreenView.swift in Sources */,
+				4D2D9A2C27C4A23B003CE786 /* ContentView.swift in Sources */,
+				139AC76327ECFA8A001A4D42 /* SpotifyController.swift in Sources */,
+				E14B5E792805DD1600B43EAD /* MainPageView.swift in Sources */,
+				139AC76627ED0278001A4D42 /* ViewModel.swift in Sources */,
+				4D2D9A2A27C4A23B003CE786 /* CARAT_AppApp.swift in Sources */,
+				E14B5E852805F73000B43EAD /* MoodScreen.swift in Sources */,
+				E14B5E7C2805DE4700B43EAD /* SpotifyView.swift in Sources */,
+				E14B5E822805F70200B43EAD /* ProfileScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4D2D9A2F27C4A23B003CE786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D2D9A3027C4A23B003CE786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4D2D9A3227C4A23B003CE786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 289QJ4X3Y4;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CARAT-App--iOS--Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.duke.CS290.CARAT-App";
+				PRODUCT_NAME = CARAT_App;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "NowPlayingView-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D2D9A3327C4A23B003CE786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 289QJ4X3Y4;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CARAT-App--iOS--Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.duke.CS290.CARAT-App";
+				PRODUCT_NAME = CARAT_App;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "NowPlayingView-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D2D9A3527C4A23B003CE786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5523UF9TQT;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CS290.CARAT-App";
+				PRODUCT_NAME = CARAT_App;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4D2D9A3627C4A23B003CE786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5523UF9TQT;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CS290.CARAT-App";
+				PRODUCT_NAME = CARAT_App;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D2D9A1727C4A237003CE786 /* Build configuration list for PBXProject "CARAT_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D2D9A2F27C4A23B003CE786 /* Debug */,
+				4D2D9A3027C4A23B003CE786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D2D9A3127C4A23B003CE786 /* Build configuration list for PBXNativeTarget "CARAT_App (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D2D9A3227C4A23B003CE786 /* Debug */,
+				4D2D9A3327C4A23B003CE786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D2D9A3427C4A23B003CE786 /* Build configuration list for PBXNativeTarget "CARAT_App (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D2D9A3527C4A23B003CE786 /* Debug */,
+				4D2D9A3627C4A23B003CE786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D2D9A1427C4A237003CE786 /* Project object */;
+}
