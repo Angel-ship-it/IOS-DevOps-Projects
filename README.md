@@ -1,4 +1,4 @@
-# IOS-DevOps-Projects
+# IOS Mobile app development
 This is all the apps that I built in IOS
 I began with creating a recipe app that I improved upon as  I learned more about View Models and Data Models.
 
